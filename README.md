@@ -32,8 +32,3 @@ Here we summarize all files present in this repo and their purpose.
 |   +-- prune_mbnv2_ispasp.py: run an i-SpaSP pruning experiment for MobileNetV2
 +-- requirements.txt : dependencies for pruning experiments
 ```
-
-## Citing us
-If you find this work useful, please cite our paper.
-```
-```
