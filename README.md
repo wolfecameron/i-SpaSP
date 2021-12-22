@@ -8,7 +8,7 @@ This is a public code repository for the publication:
 
 ## Description
 
-![](./repo_images/synthetic_compress.pdf)
+![](repo_images/synthetic_compress.pdf)
 
 We propose a novel, structured pruning algorithm for neural networks---the iterative, Sparse Structured Pruning algorithm, dubbed as i-SpaSP.
 Inspired by ideas from sparse signal recovery, i-SpaSP operates by iteratively identifying a larger set of important parameter groups (e.g., filters or neurons) within a network that contribute most to the residual between pruned and dense network output, then thresholding these groups based on a smaller, pre-defined pruning ratio.
