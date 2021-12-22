@@ -8,8 +8,7 @@ This is a public code repository for the publication:
 
 ## Description
 
-![](repo_images/synthetic_compress.pdf)
-
+<img src="./repo_images/synthetic_compress.pdf" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 We propose a novel, structured pruning algorithm for neural networks---the iterative, Sparse Structured Pruning algorithm, dubbed as i-SpaSP.
 Inspired by ideas from sparse signal recovery, i-SpaSP operates by iteratively identifying a larger set of important parameter groups (e.g., filters or neurons) within a network that contribute most to the residual between pruned and dense network output, then thresholding these groups based on a smaller, pre-defined pruning ratio.
 For both two-layer and multi-layer network architectures with ReLU activations, we show the error induced by pruning with i-SpaSP decays polynomially, where the degree of this polynomial becomes arbitrarily large based on the sparsity of the dense network's hidden representations.
