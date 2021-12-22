@@ -16,7 +16,7 @@ For both two-layer and multi-layer network architectures with ReLU activations, 
 In our experiments, i-SpaSP is evaluated across a variety of datasets (i.e., MNIST and ImageNet) and architectures (i.e., feed forward networks, ResNet34, and MobileNetV2), where it is shown to discover high-performing sub-networks and improve upon the pruning efficiency of provable baseline methodologies by several orders of magnitude.
 Put simply, i-SpaSP is easy to implement with automatic differentiation, achieves strong empirical results, comes with theoretical convergence guarantees, and is efficient, thus distinguishing itself as one of the few computationally efficient, practical, and provable pruning algorithms.
 
-![]('./repo_images/ls_table.png)
+![](./repo_images/ls_table.png)
 
 ## Environment/Dependencies
 
